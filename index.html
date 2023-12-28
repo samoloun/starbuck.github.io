@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <section id="home" class="home">
+        <!-- navbar  -->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/logos.png" alt="logo" class="rounded-circle" width="60px" height="60px">
+                    <span class="text-success fw-bold">StarBucks</span>
+                </a>
+                <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" 
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#products">products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+                        <i class="bi bi-basket2-fill cart"></i>
+                        <i class="bi bi-moon-stars-fill moon"></i>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+        <!-- hero -->
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 hero-text">
+                        <h1 class="display-4 text-white">
+                            <span class="text-success fw-bold">Starbucks</span>
+                        </h1>
+                        <p class="lead text-">
+                            <span class="text-success fw-bold">Starbucks</span  > is a company that provides a wide range of products and services to customers.
+                        </p>
+                        <a href="#products" class="btn btn-success btn-sm mt-5">
+                            <span class="text-light fw-bold">Shop Now</span>
+                        </a>
+                    </div>
+                    <div class="col-lg-6 hero-img mt-lg-0 mt-5">
+                        <img src="./img/hro.jpg" alt="hero" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- section product -->
+<section class="product" id="products">
+    <div class="container">
+        <!-- list product by link -->
+        <div class="row my-5">
+            <div class="col-lg-10">
+                <div class="row bg-light p-2">
+                    <div class="col-2 iconbx">
+                        <img src="./img/home.png" alt="product" class="img-fluid" id="showAll">
+                       
+                    </div>
+                    <div class="col-2 iconbx">
+                            <img src="./img/coffecup.png" alt="product" class="img-fluid" id="btn-1">
+                    </div>
+                    <div class="col-2 iconbx">
+                            <img src="./img/bread.png" alt="product" class="img-fluid" id="btn-2">
+                    </div>
+                    <div class="col-2 iconbx">
+                            <img src="./img/milk.png" alt="product" class="img-fluid" id="btn-3">
+                    </div>
+                    <div class="col-2 iconbx">
+                            <img src="./img/burger.png" alt="product" class="img-fluid" id="btn-4">
+                    </div>
+                    <div class="col-2 iconbx">
+                            <img src="./img/food (4).jpg" alt="product" class="img-fluid" id="btn-5">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 caret bg-light">
+                <input type="text" placeholder="search product" id="search-item" class="form-control form-control-sm">
+                <i class="bi bi-search search"></i>
+            </div>
+        </div>
+        <!-- product item -->
+        <div class="row product-list">
+            
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="container">
+        <div class="row pt-5">
+            <div class="col-12 text-center ">
+                <h1 class="display-4 text-white">
+                    <span class="text-success fw-bold">About Us</span>
+                </h1>
+                <p class="lead text-secondary">
+                    <span class="text-success fw-bold">Starbucks</span  > is a company that provides a wide range of products and services to customers.
+                </p>
+                <!-- about us -->
+
+            </div>
+        </div>
+        <div class="row p-4">
+            <div class="col-lg-4  shadow-lg">
+                <div class="imag pt-2">
+                    <img src="./img/peo.jpg"class="img-fluid"width="100%"height="100%"  alt="">
+                </div>
+                <div class="title position-absolute ">
+                    <p class="fw-bold">People</p>
+                </div>
+                <div class="content mt-5 pb-4">
+                    <p>
+                        <span class="text-success fw-bold">Starbucks</span  > is a company that provides a wide range of products and services to customers.
+                    </p>
+                    <p>
+                        <span class="text-success fw-bold">Starbucks</span  > is a company that provides a wide range of products and services to customers.
+                    </p>
+                    <a href="#" class="more">Read more</a>
+
+                </div>
+            </div>
+            <div class="col-lg-4  shadow-lg">
+                <div class="imag pt-2">
+                    <img src="./img/planet.jpg" class="img-fluid"width="100%" alt="">
+                </div>
+                <div class="title position-absolute ">
+                    <p class="fw-bold">Planet</p>
+                </div>
+                <div class="content mt-5 pb-4">
+                    <p>
+                        <span class="text-success fw-bold">Our vision for the future is</span  >  to become resource positive—giving back more than we take from the planet. And we know we can’t do it alone.
+                            It takes all of us.
+                    </p>
+                    <a href="#" class="more">Read more</a>
+
+                </div>
+            </div>
+            <div class="col-lg-4  shadow-lg">
+                <div class="imag pt-2">
+                    <img src="./img/moca.jpg" class="img-fluid"width="100%" alt="">
+                </div>
+                <div class="title position-absolute ">
+                    <p class="fw-bold">coffee</p>
+                </div>
+                <div class="content mt-5 pb-4">
+                    <p>
+                        <span class="text-success fw-bold">Coffee is at our heart,</span  > Coffee is at our heart, inspiring our craft and driving innovation—in our drinks, our food, our stores and new ways we bring the Starbucks 
+                    </p>
+                    <a href="#" class="more">Read more</a>
+                </div>
+            </div>
+            <div class="col-lg-4 py-4 shadow-lg">
+                <div class="imag pt-2">
+                    <img src="./img/cafe.jpg"class="img-fluid"width="100%" alt="">
+                </div>
+                <div class="title position-absolute ">
+                    <p class="fw-bold">comp <br> any</p>
+                </div>
+                <div class="content mt-5 pb-4">
+                    <p>
+                        <span class="text-success fw-bold">Our story begins in 1971 along </span  > Ten years later, a young New Yorker named Howard Schultz would walk through these doors and become captivated with Starbucks coffee from his first sip. 
+                    </p>
+                    <a href="#" class="more">Read more</a>
+                </div>
+            </div>
+            <div class="col-lg-4 py-4 shadow-lg">
+                <div class="imag pt-2">
+                    <img src="./img/craft.jpg"class="img-fluid" alt="">
+                </div>
+                <div class="title position-absolute ">
+                    <p class="fw-bold">Craft</p>
+                </div>
+                <div class="content mt-5 pb-4">
+                    <p>
+                        <span class="text-success fw-bold">Starbucks</span  > It takes many hands to craft the perfect cup of coffee – from the farmers who tend to the red-ripe coffee cherries, 
+                    </p>
+                    <a href="#" class="more">Read more</a>
+                </div>
+            </div>
+            <div class="col-lg-4 py-4 shadow-lg">
+                <div class="imag pt-2">
+                    <img src="./img/partner.jpg"class="img-fluid" alt="">
+                </div>
+                <div class="title position-absolute ">
+                    <p class=" fw-medium">Partner</p>
+                </div>
+                <div class="content mt-5 ">
+                    <p>
+                        <span class="text-success fw-bold pb-5">Our Partners</span  > We like to say that we are not in the coffee business serving people,Our employees – who we call partners 
+                    </p>
+                    
+                </div>
+                <a href="#" class="more ">Read more</a>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="container">
+    <div class="row mt-5">
+        <div class="col-12 shadow-lg">
+        <h1 class="text-center text-success fs-2 fw-bold "><span>Contact us</span></h1>
+        </div>
+    </div>
+    <div class="row bg-black rounded-4 bg-opacity-100">
+        <div class="col-lg-6 col-12   border-1 border-end border-secondary">
+            <div class="box">
+            <div class="title1">
+                <h1 class="text-info text-center mt-3">Social Media</h1>
+            </div>
+            <div class="social">
+               <div class="facebook">
+                <h3 class="text-center text-primary">Facebook Page</h3>
+                <i class="bi bi-facebook fb"></i>
+               </div>
+                <div class="ig">
+                    <h3 class="text-center text-primary">Instagram</h3>
+                    <i class="bi bi-instagram ig"></i>
+                </div>
+               <div class="twitter">
+                <h3 class="text-center text-primary ">Twitter</h3>
+                <i class="bi bi-twitter tw"></i>
+               </div>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-12">
+            <div class="box">
+                <div class="title1">
+                    <h1 class="text-info text-center mt-3">Other Way</h1>
+                </div>
+                <div class="other">
+                <div class="phone">
+                    <h3 class=" text-center text-primary">Telephone</h3>
+                    <i class="bi bi-telephone ph"></i>
+                </div>
+                <div class="Telegram">
+                    <h3  class=" text-center text-primary">Telegram</h3>
+                    <i class="bi bi-telegram teleg"></i>
+
+                </div>
+                  <div class="email">
+                    <h3 class=" text-center text-primary">Email</h3>
+                    <i class="bi bi-envelope ema"></i>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+</body>
+</html>
+<script src="./script.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<script>
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '70px',
+        duration: 2000,
+        delay : 200
+    });
+    sr.reveal('.hero-text',{ origin : 'left' , interval : 300});
+    sr.reveal('.hero-img', { interval : 300 });
+    sr.reveal('.box', { interval : 300 });
+</script>
